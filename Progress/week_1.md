@@ -1,7 +1,7 @@
-##Week 1 Progress Report
+## Week 1 Progress Report
 
-*Started installation of Approxlyzer
-..*Installed GEMS
-..*Started installation of SIMICS
+* Started installation of Approxlyzer
+..* Installed GEMS
+..* Started installation of SIMICS
 
-*Created a git to upload code
+* Created a git to upload code
