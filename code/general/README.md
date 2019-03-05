@@ -37,6 +37,6 @@ Following are a few examples of calls to a few apps:
   
     * [keyword] = lu
     * [inputs]:
-      * matrix size [N] = 1
+      * matrix size [N] = 512
       * number of processors [P] = 1
       * blocksize [B] = 16   
