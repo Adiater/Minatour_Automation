@@ -65,8 +65,6 @@ def get_quality(app_call, app_src,  *inputs):
 
 def app_call_builder(app_call, *inputs):
 
-    #print(inputs)
-    #print(app_call)
     count = 0
     call = ""
     file_name = ""
@@ -90,11 +88,7 @@ def app_call_builder(app_call, *inputs):
 
     return call, file_name
 
-
-
-#ref = (cov_parser("cov_info/cov"))[0].keys()
-#get_quality("cov_info/temp_1_cov", ref)
-
+# Preliminary check to make sure that the number of arguments given is enough
 if len(sys.argv) < 2:
     print("Error: More arguments required")
     quit()
@@ -103,4 +97,6 @@ if sys.argv[1] not in app_call_dict:
     print("Give a valid name")
     quit()
 
+# Call the function from command line
+# Specifics of how to call this can be found in the README.md file
 get_quality(app_call_dict[str(sys.argv[1])], app_src_dict[str(sys.argv[1])], *sys.argv[2:])

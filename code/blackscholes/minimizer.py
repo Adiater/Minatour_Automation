@@ -12,7 +12,7 @@ def minimizer(app, inputs, constraints = 0, target_quality = 0):
     temp_in = ["temp_1", "temp_2"]
     temp_file = inputs[0]
 
-    while(temp_quality >= target_quality):
+    while(temp_quality >= 80):
         
         reduce_input("inputs/" + temp_file, constraints)
         temp_quality_1 = get_quality(app, temp_in[0])
@@ -81,4 +81,4 @@ def remove(file):
 
 #reduce_input("in_64000.txt")
 #print("The coverage is " + str(get_quality("/shared/workspace/aditikg2/TESTING_STUFF/parsec-3.0/pkgs/apps/blackscholes/src/blackscholes", "temp_1")))
-minimizer("/shared/workspace/aditikg2/TESTING_STUFF/parsec-3.0/pkgs/apps/blackschole\s/src/blackscholes", ("ref",))
+minimizer("/shared/workspace/aditikg2/TESTING_STUFF/parsec-3.0/pkgs/apps/blackschole\s/src/blackscholes", ("ref",), 80)

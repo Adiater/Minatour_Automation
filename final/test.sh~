@@ -1,0 +1,9 @@
+#!/bin/bash
+
+list=`ls -d dir/test/*`
+echo $list
+
+for l in $lists
+do
+    echo $l
+done

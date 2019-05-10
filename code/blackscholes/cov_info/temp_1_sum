@@ -1,5 +1,2 @@
 Reading tracefile cov_info/temp_1_cov
-Summary coverage rate:
-  lines......: 80.1% (117 of 146 lines)
-  functions..: 100.0% (4 of 4 functions)
-  branches...: no data found
+lcov: ERROR: no valid records found in tracefile cov_info/temp_1_cov
